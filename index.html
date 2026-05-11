@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Auto Care | Professional Local Auto Repair</title>
+    <meta name="description" content="Precision Auto Care offers professional, reliable, and affordable auto repair services including oil changes, brake repair, and engine diagnostics. Book your appointment today!">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-red">PRECISION</span>
+                <span class="logo-dark">AUTO CARE</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link shake-the-btn"><span class="letter">H</span><span class="letter">o</span><span class="letter">m</span><span class="letter">e</span></a>
+                <a href="#services" class="nav-link shake-the-btn"><span class="letter">S</span><span class="letter">e</span><span class="letter">r</span><span class="letter">v</span><span class="letter">i</span><span class="letter">c</span><span class="letter">e</span><span class="letter">s</span></a>
+                <a href="about.html" class="nav-link shake-the-btn"><span class="letter">A</span><span class="letter">b</span><span class="letter">o</span><span class="letter">u</span><span class="letter">t</span></a>
+                <a href="reviews.html" class="nav-link shake-the-btn"><span class="letter">R</span><span class="letter">e</span><span class="letter">v</span><span class="letter">i</span><span class="letter">e</span><span class="letter">w</span><span class="letter">s</span></a>
+                <a href="courteseis" class="nav-link shake-the-btn"><span class="letter">C</span><span class="letter">o</span><span class="letter">u</span><span class="letter">r</span><span class="letter">t</span><span class="letter">e</span><spanclass="letter">s</span><span class="letter">e</span><span class="letter">i</span><span class="letter">s</span></a> 
+                    <a href="#booking" class="btn-book shake-the-btn">
+                    <span class="letter">B</span><span class="letter">o</span><span class="letter">o</span><span class="letter">k</span> 
+                    <span class="letter">A</span><span class="letter">p</span><span class="letter">p</span><span class="letter">o</span><span class="letter">i</span><span class="letter">n</span><span class="letter">t</span><span class="letter">m</span><span class="letter">e</span><span class="letter">n</span><span class="letter">t</span>
+                </a>
+            </div>
+            <div class="md-hidden">
+                <button class="nav-link">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient">
+        <div class="hero-content">
+            <h1>Reliable Service You Can Trust</h1>
+            <p>Expert auto repair and maintenance for all makes and models. Your local choice for quality and transparency.</p>
+            <div class="hero-btns">
+                <a href="#booking" class="btn-primary">Schedule Now</a>
+                <a href="#services" class="btn-secondary">View Services</a>
+                <a href="reviews.html" class="btn-secondary">Customer Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2 class="section-title">Our Professional Services</h2>
+        <p class="section-subtitle">We provide a full range of automotive services to keep your vehicle running smoothly and safely on the road.</p>
+        
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=800" alt="Oil Change" class="service-img">
+                <div class="service-info">
+                    <h3>Oil & Filter Change</h3>
+                    <p>Premium synthetic or conventional oil options to keep your engine healthy.</p>
+                    <p class="price">Starting at P600</p>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card">
+                <img src="https://plus.unsplash.com/premium_photo-1661313649541-e4a2c0dd9691?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJyYWtlJTIwcmVwYWlyfGVufDB8fDB8fHww" alt="Brake Repair" class="service-img">
+                <div class="service-info">
+                    <h3>Brake Service</h3>
+                    <p>Full inspection, pad replacement, and rotor resurfacing for maximum safety.</p>
+                    <p class="price">Starting at P1000</p>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card">
+                <img src="https://media.istockphoto.com/id/139880454/photo/old-car-engine.webp?a=1&b=1&s=612x612&w=0&k=20&c=eRJhDSx3MlpjVAruln1xZ6jJ1E3aFR_JElj2ODDLW3w=" alt="Diagnostics" class="service-img">
+                <div class="service-info">
+                    <h3>Engine Diagnostics</h3>
+                    <p>Advanced computer scanning to identify issues before they become major repairs.</p>
+                    <p class="price">Starting at P700</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-12">
+            <p class="text-gray-500 italic">* Labor rate: P300/hour. Contact us for detailed estimates for major repairs.</p>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="booking-container">
+            <div class="text-center">
+                <h2 class="section-title">Book Your Appointment</h2>
+                <p class="section-subtitle" style="color: #9ca3af;">Schedule your visit in less than 2 minutes. We'll confirm via phone or email.</p>
+            </div>
+            
+            <form id="appointmentForm" class="form-grid">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" required class="form-control" placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" required class="form-control" placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" required class="form-control" placeholder="71404123">
+                </div>
+                <div class="form-group">
+                    <label>Preferred Date</label>
+                    <input type="date" required class="form-control">
+                </div>
+                <div class="form-group col-span-2">
+                    <label>Service Needed</label>
+                    <select class="form-control">
+                        <option>Oil Change</option>
+                        <option>Brake Repair</option>
+                        <option>Engine Diagnostics</option>
+                        <option>Tire Service</option>
+                        <option>Other / Not Sure</option>
+                    </select>
+                </div>
+                <div class="form-group col-span-2">
+                    <label>Notes (Optional)</label>
+                    <textarea class="form-control" placeholder="Tell us about your car's issue..."></textarea>
+                </div>
+                <div class="col-span-2">
+                    <button type="submit" class="btn-submit">Schedule Visit</button>
+                </div>
+            </form>
+            <div id="successMessage" class="hidden mt-8 p-6 bg-green-900 border-green-700">
+                <p class="section-title" style="font-size: 1.5rem; margin-bottom: 0;">Appointment Requested!</p>
+                <p class="text-green-300">We'll reach out shortly to confirm your slot.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo" style="margin-bottom: 1.5rem;">
+                    <span class="logo-red">PRECISION</span>
+                    <span class="logo-dark">AUTO CARE</span>
+                </div>
+                <p class="section-subtitle" style="text-align: left; margin: 0;">Quality auto repair and maintenance services you can trust since 2010.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul class="footer-list">
+                    <li><i class="fa-solid fa-location-dot"></i> Setlhomo Rd, Kgosing, Kanye</li>
+                    <li><i class="fa-solid fa-phone"></i> 75776038/71404123</li>
+                    <li><i class="fa-solid fa-envelope"></i> precisionautocare@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Working Hours</h4>
+                <ul class="footer-list working-hours">
+                    <li><span>Mon - Fri:</span> <span>8:00 AM - 6:00 PM</span></li>
+                    <li><span>Saturday:</span> <span>9:00 AM - 4:00 PM</span></li>
+                    <li class="closed"><span>Sunday:</span> <span>CLOSED</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #f3f4f6; color: #9ca3af;">
+            &copy; 2026 Precision Auto Care. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        const form = document.getElementById('appointmentForm');
+        const success = document.getElementById('successMessage');
+        
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            form.classList.add('hidden');
+            success.classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
