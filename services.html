@@ -5,6 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mechanical Services | Precision Auto Care</title>
     <meta name="description" content="Explore our specialized mechanical services for Trucks, Sedans, Vans, and SUVs at Precision Auto Care. Professional maintenance for every vehicle type.">
+    <link rel="stylesheet" href="style.css">
+ <style>
+        /* Fallback/Additional styles to ensure layout consistency if style.css is missing or incomplete */
+        .category-header {
+            padding: 4rem 2rem 2rem;
+            text-align: center;
+            background-color: #f9fafb;
+        }
+        .service-category {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .category-title {
+            font-size: 2.5rem;
+            color: #111827;
+            margin-bottom: 1rem;
+            border-bottom: 4px solid #e11d48;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        .vehicle-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .vehicle-card {
+            background: white;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .vehicle-card:hover {
+            transform: translateY(-5px);
+        }
+        .vehicle-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .vehicle-info {
+            padding: 1.5rem;
+        }
+        .vehicle-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+        .service-list {
+            list-style: none;
+            padding: 0;
+        }
+        .service-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #f3f4f6;
+            display: flex;
+            align-items: center;
+        }
+        .service-list li i {
+            color: #e11d48;
+            margin-right: 10px;
+        }
+        .cta-box {
+            background: #111827;
+            color: white;
+            padding: 3rem;
+            text-align: center;
+            border-radius: 1rem;
+            margin: 4rem auto;
+            max-width: 800px;
+        }
+        .btn-primary-alt {
+            background-color: #e11d48;
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+    </style>
     </head>
 <body>
     <!-- Navbar (Consistent with index.html) -->
